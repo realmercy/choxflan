@@ -7,7 +7,8 @@ module.exports = {
         .setName("banner")
         .setDescription("change the server banner")
         .addStringOption((option) => option.setName("url").setDescription("url to the image/gif you want to set as banner")),
-    async execute(interaction, guild) {
+    async execute(interaction) {
+        const guild = interaction.guild
         const banner = interaction.options.getString("url")
         let limited = rateLimiter.take(interaction.user.id); 
         if (limited) {
