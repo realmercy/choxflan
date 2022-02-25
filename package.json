@@ -7,7 +7,7 @@
     },
     "scripts": {
         "test": "echo penis",
-        "start": "pm2 start index.js"
+        "start": "node index.js"
     },
     "engines": {
         "node": "16.x"
