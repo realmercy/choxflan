@@ -6,7 +6,7 @@ client.commands = new Discord.Collection();
 client.on("ready", () => {
     console.log("penis-balls-cum");
     client.user.setPresence({
-        activities: [{ name: "FOR SOMEOME TO EDIT THE GUILD" , type: "WATCHING" }],
+        activities: [{ name: "FOR SOMEOME TO EDIT THE GUILD", type: "WATCHING" }],
     });
 });
 

@@ -2,11 +2,12 @@
     "dependencies": {
         "discord.js": "^13.6.0",
         "@discordjs/builders": "^0.12.0",
-        "discord.js-rate-limiter": "^1.3.2"
+        "discord.js-rate-limiter": "^1.3.2",
+        "pm2": "^5.2.0"
     },
     "scripts": {
         "test": "echo penis",
-        "start": "node index.js"
+        "start": "pm2 start index.js"
     },
     "engines": {
         "node": "16.x"

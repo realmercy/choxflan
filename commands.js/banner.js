@@ -1,5 +1,5 @@
 const rate = require("discord.js-rate-limiter")
-let rateLimiter = new rate.RateLimiter(1, 10000); 
+let rateLimiter = new rate.RateLimiter(1, 2000); 
 
 const { SlashCommandBuilder } = require("@discordjs/builders");
 module.exports = {
